@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var EPS = require( '@stdlib/constants-float64-eps' );
 var pkg = require( './../package.json' ).name;
 var factory = require( './../lib/factory.js' );
