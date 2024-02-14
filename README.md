@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reduceAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-reduce@deno/mod.js';
+import reduceAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-reduce@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-reduce@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-reduce@v0.2.0-deno/mod.js';
 ```
 
 #### reduceAsync( collection, initial, \[options,] reducer, done )
@@ -376,7 +376,7 @@ The function accepts the same `options` as `reduceAsync()`.
 ```javascript
 var resolve = require( 'path' ).resolve;
 import readFile from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file@deno/mod.js';
-import reduceAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-reduce@deno/mod.js';
+import reduceAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-reduce@v0.2.0-deno/mod.js';
 
 var files = [
     resolve( __dirname, 'package.json' ),
