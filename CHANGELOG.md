@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-06)
+## Unreleased (2025-12-16)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#9032](https://github.com/stdlib-js/stdlib/issues/9032)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`2ea832b`](https://github.com/stdlib-js/stdlib/commit/2ea832bac1694a9a9baa302603e7e08e24130f1b) - **chore:** fix JavaScript lint errors [(#9039)](https://github.com/stdlib-js/stdlib/pull/9039) _(by 0x00000F, Athan Reines)_
 -   [`6bb3c64`](https://github.com/stdlib-js/stdlib/commit/6bb3c64c915bb33715e5256fa8073e46b9a4d443) - **docs:** update examples in TSDoc comments in `utils/async` for doctesting _(by Philipp Burckhardt)_
 -   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
@@ -26,8 +39,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   0x00000F
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
